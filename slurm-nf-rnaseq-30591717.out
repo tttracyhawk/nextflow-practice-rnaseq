@@ -1,0 +1,21 @@
+[33mNextflow 24.04.4 is available - Please consider updating your version to it(B[m
+N E X T F L O W  ~  version 24.04.2
+Launching `main.nf` [tiny_pasteur] DSL2 - revision: fe31c5a464
+
+RNASEQ-NF PIPELINE
+==================
+transcriptome:  /fs/ess/PAS1568/TracyHawk/Nextflow_JelmerHelp/rnaseq_practice/data/ggal/transcriptome.fa
+reads:          /fs/ess/PAS1568/TracyHawk/Nextflow_JelmerHelp/rnaseq_practice/data/ggal/*_{1,2}.fq
+outdir:         results
+
+[b3/80abf8] Cached process > INDEX
+[20/f60317] Cached process > FASTQC (FASTQC on liver)
+[e8/21676d] Cached process > FASTQC (FASTQC on gut)
+[ec/70ccea] Cached process > QUANTIFICATION (gut)
+[ec/d4a9e2] Cached process > QUANTIFICATION (liver)
+[f6/d725d2] Cached process > QUANTIFICATION (lung)
+[0a/53d4a3] Cached process > FASTQC (FASTQC on lung)
+[88/87aa9c] Cached process > MULTIQC
+
+Done! Open the following report in your browser --> results/multiqc/multiqc_report.html
+

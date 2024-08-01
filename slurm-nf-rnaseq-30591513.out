@@ -1,0 +1,22 @@
+[33mNextflow 24.04.4 is available - Please consider updating your version to it(B[m
+N E X T F L O W  ~  version 24.04.2
+Launching `main.nf` [backstabbing_dubinsky] DSL2 - revision: fe31c5a464
+
+RNASEQ-NF PIPELINE
+==================
+transcriptome:  /fs/ess/PAS1568/TracyHawk/Nextflow_JelmerHelp/rnaseq_practice/data/ggal/transcriptome.fa
+reads:          /fs/ess/PAS1568/TracyHawk/Nextflow_JelmerHelp/rnaseq_practice/data/ggal/*_{1,2}.fq
+outdir:         results
+
+[e8/21676d] Submitted process > FASTQC (FASTQC on gut)
+[20/f60317] Submitted process > FASTQC (FASTQC on liver)
+[b3/80abf8] Submitted process > INDEX
+[0a/53d4a3] Submitted process > FASTQC (FASTQC on lung)
+[ec/70ccea] Submitted process > QUANTIFICATION (gut)
+[ec/d4a9e2] Submitted process > QUANTIFICATION (liver)
+[f6/d725d2] Submitted process > QUANTIFICATION (lung)
+[88/87aa9c] Submitted process > MULTIQC
+
+Done! Open the following report in your browser --> results/multiqc/multiqc_report.html
+
+/var/spool/slurmd/job30591513/slurm_script: line 17: -resume: command not found
